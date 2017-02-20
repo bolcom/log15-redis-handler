@@ -1,5 +1,9 @@
-# log15-redis-handler
+# log15-redis-handler (package redis15)
 	
+[![Build Status](https://travis-ci.org/bolcom/log15-redis-handler.png)](https://travis-ci.org/bolcom/log15-redis-handler)
+[![Go Report Card](https://goreportcard.com/badge/github.com/bolcom/log15-redis-handler)](https://goreportcard.com/report/github.com/bolcom/log15-redis-handler)
+[![GoDoc](https://godoc.org/github.com/bolcom/log15-redis-handler?status.svg)](https://godoc.org/github.com/bolcom/log15-redis-handler)
+
 ## How to send log messages to Logstash via Redis
 
 	package main
@@ -7,7 +11,7 @@
 	import (
 		"os"
 
-		"github.com/bolcom/log15-redis-handler"
+		redis15 "github.com/bolcom/log15-redis-handler"
 		"github.com/inconshreveable/log15"
 	)
 
